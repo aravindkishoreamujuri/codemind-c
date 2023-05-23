@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<string.h>
 int main()
 {
-char str[20];
-scanf("%[^
-]%*c", str);
-printf("%s", str);
-
-return 0;
+    char s[100];
+    scanf("%[^
+]%*c", s);
+    printf("%s",s);
 }
